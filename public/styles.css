@@ -1,0 +1,82 @@
+html, body{
+    height: 100%;
+    width: 100%;
+
+
+}
+
+.pro-font{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+.bg-tunnel-image{
+    height: 75%;
+
+    background: url(tunnel-background-1.svg);
+    background-size:contain;
+
+}
+
+
+.opening-text-div{
+    height: 100%;
+    background: rgba(129, 69, 151, 0.5);
+}
+
+.opening-text-title{
+    font-size: 84px;
+    line-height: 100px;
+
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+text-shadow: 10px 5px 0px #000000;
+}
+
+.opening-text-paragraph{
+    padding: 3%;
+    padding-left: 0%;
+    padding-top: 0%;
+    margin-top: 2rem;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+/* home spread 2 */
+.home-subtitle{
+    font-family: Raleway;
+    font-variant: small-caps;
+    font-size: 18px;
+}
+
+/* homw spread3 */
+
+.home-spread-3{
+    background: #474747;
+    color: #fff;
+}
+
+.gifs{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.gif-wrapper{
+    text-align: center;
+}
+
+.car-gif, .wing-gif{
+    max-width: 100%;
+    max-height: 100%;
+
+    border: solid 2px #000;
+}
+
+.gif-caption{
+    margin-top: 10px;
+}
