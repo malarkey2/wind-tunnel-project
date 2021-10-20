@@ -8,6 +8,11 @@ html, body{
 .fullsize-img{
     max-width: 100%;
     max-height: 100%;
+    
+}
+
+.display-flex{
+    display: flex;
 }
 
 .pro-font{
@@ -136,4 +141,18 @@ font-size: 14px;
 
 .bor-bot{
     border-bottom: 0.5px solid rgb(131, 131, 131);
+}
+
+.build-section-title{
+    margin: 1rem 0;
+}
+.build-section-text{
+    padding: 2%;
+}
+
+.build-section{
+    margin: 3% auto;
+    width: 100%;
+    padding: 0 7%;
+    background: #fff3e6;
 }
