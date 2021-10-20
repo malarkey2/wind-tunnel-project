@@ -119,3 +119,21 @@ text-shadow: 10px 5px 0px #000000;
     font-weight: 400;
 font-size: 14px;
 }
+
+
+/* Build Page */
+
+.build-intro{
+    margin: 4% auto;
+}
+
+
+.frame-build-steps-text{
+    background: #5F3E73;
+    color: #fff;
+    padding-left: 5%;
+}
+
+.bor-bot{
+    border-bottom: 0.5px solid rgb(131, 131, 131);
+}
