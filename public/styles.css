@@ -5,6 +5,11 @@ html, body{
 
 }
 
+.fullsize-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .pro-font{
     font-family: Roboto Slab;
     font-style: normal;
@@ -79,4 +84,38 @@ text-shadow: 10px 5px 0px #000000;
 
 .gif-caption{
     margin-top: 10px;
+}
+
+/* COMPONENTS PAGE */
+
+.components-spread-1{
+    background: #212830;
+
+}
+
+.components-spread-1-textdiv{
+    color: #fff;
+  
+}
+
+.components-intro-band{
+    padding: 2rem;
+    background: #EBE3B7;
+}
+.components-intro-band > h1{
+    text-shadow: 2px 2px 0px #CDAC00;
+}
+
+.components-spread-2{
+    padding: 2% 0;
+}
+
+.components-subtitle{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.components-para{
+    font-weight: 400;
+font-size: 14px;
 }

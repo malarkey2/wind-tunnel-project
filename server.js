@@ -11,6 +11,15 @@ app.use(express.static(__dirname + '/public'));
 app.get('/', (req, res) => {
     res.render('home');
   });
+
+  app.get('/components', (req, res) => {
+    res.render('components');
+  });
+
+  app.get('/build', (req, res) => {
+    res.render('build');
+  });
+  
   
   
   const PORT = process.env.PORT || 4000; 
