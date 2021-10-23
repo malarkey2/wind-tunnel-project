@@ -2,7 +2,19 @@ html, body{
     height: 100%;
     width: 100%;
 
+    max-width: 100%;
+    overflow-x: hidden;
 
+}
+
+.transition-smooth{
+    transition: all 0.3s ease 0s;
+
+}
+
+.disappear{
+    display: none;
+    transition: all 0.3s ease 0s;
 }
 
 .fullsize-img{
@@ -23,7 +35,7 @@ html, body{
 
 
 .bg-tunnel-image{
-    height: 75%;
+    height: 80%;
 
     background: url(tunnel-background-1.svg);
     background-size:contain;
@@ -55,6 +67,16 @@ text-shadow: 10px 5px 0px #000000;
     margin-top: 2rem;
     font-size: 18px;
     line-height: 35px;
+}
+
+.opening-buttons{
+    border-radius: 0%;
+     font-family: Raleway;
+     font-weight: 500;
+     font-size: 14px;
+      letter-spacing: 0.1em;
+       font-variant: small-caps;
+        padding: 2%; display: inline-block;
 }
 
 /* home spread 2 */
@@ -93,6 +115,12 @@ text-shadow: 10px 5px 0px #000000;
 
 /* COMPONENTS PAGE */
 
+.image-components{
+    font-family: 'Raleway';
+    margin-top: 10px;
+    text-align: center;
+}
+
 .components-spread-1{
     background: #212830;
 
@@ -129,13 +157,13 @@ font-size: 14px;
 /* Build Page */
 
 .build-intro{
-    margin: 4% auto;
+    margin: auto;
 }
 
 
 .frame-build-steps-text{
-    background: #5F3E73;
-    color: #fff;
+   
+    background: #f9f6fd;
     padding-left: 5%;
 }
 
@@ -155,4 +183,10 @@ font-size: 14px;
     width: 100%;
     padding: 0 7%;
     background: #fff3e6;
+}
+
+/* special components */
+
+.container-padding{
+    padding: 4%;
 }

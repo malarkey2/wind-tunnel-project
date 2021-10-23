@@ -20,6 +20,15 @@ app.get('/', (req, res) => {
     res.render('build');
   });
 
+  app.get('/stabilizer', (req, res) => {
+    res.render('stabilizer');
+  });
+
+  app.get('/powerpod', (req, res) => {
+    res.render('powerpod');
+  });
+
+
 
 
   //File Downloads --- FILE DOWNLOADS --- File Downloads

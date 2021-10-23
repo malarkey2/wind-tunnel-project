@@ -1,4 +1,4 @@
-<div class="pro-font container build-intro">
+<div class="pro-font container-padding build-intro" style=" background: #F1F7E7;">
 
     <div class="row">
         <div class="col-md-12">
@@ -11,35 +11,112 @@
 
                 The special components include the honeycomb, power-pod, etc. Methods for these are different and are addressed appropriately below. 
                 Before that though, we build the frame. 
+                <br> <br>
+                Quick jump to section plans:
+                <ul>
+                    <li><a href="#flow-stabilizer">Flow Stabilizer</a></li>
+                    <li><a href="#contraction-section">Contraction Section</a></li>
+                    <li><a href="#test-section">Test Section</a></li>
+                    <li><a href="#diffuser">Diffuser</a></li>
+        
+                </ul>
             </p>
         </div>
     </div>
 
-    <div id="frame-method" class="row">
-        <div class="col-md-12">
-            <h2>Wind Tunnel Frame - Build Plan</h2>
-            <p>Building the frame is a fairly simple process. It starts with a printable blueprint plan, which you will use to trace and cut the components of the wind tunnel sections. The cardboard (or foamboard) pieces are joined together, which forms a the 
-                windtunnel. Besides this, only a few components remain to have a completely functional windtunnel.</p>
 
-                <table class="table table-bordered">
-                    <thead>
-                      <tr>
-                        <th scope="col">Item</th>
-                        <th scope="col">Material</th>
-                        <th scope="col">Quantity</th>
-                        <th scope="col">Handle</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                      </tr>
-                    </tbody>
-                </table>
+</div>
+
+<div id="frame-method" class="container-padding pro-font">
+    <div class="col-md-12">
+        <h2>Wind Tunnel Frame - Build Plan</h2>
+        <p id="materialPara">Building the frame is a fairly simple process. It starts with a printable blueprint plan, which you will use to trace and cut the components of the wind tunnel sections. The cardboard (or foamboard) pieces are joined together, which forms a the 
+            windtunnel. Besides this, only a few components remain to have a completely functional windtunnel.</p>
+            <button class="btn btn-primary dropdown-toggle" style="margin-bottom: 20px" type="button" id="openList">
+                Materials List
+              </button>
+
+              <button class="btn btn-outline-primary " style="display: none; margin-bottom: 20px" type="button" id="closeList">
+                Materials List - Collapse
+              </button>
+             <div class="transition-smooth disappear" id="materialList">
+                
+                            <table  class="table table-bordered">
+                            <thead>
+                            <tr>
+                                <th scope="col">Item</th>
+                                <th scope="col">Material</th>
+                                <th scope="col">Quantity</th>
+                                
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>
+                                    <b>Cardboard</b><br>
+                                    
+                                    Wall - Single Wall Board<br>
+                                    Flute Style - Corrugated<br>
+                                    Thickness - 4.8mm (Flute A)<br>
+                                    Paper - Kraft <br><br>
+
+                                    
+                                </td>
+                                <td>
+                                    4 sheets - 841 mm x 1188 mm (A0)<br>
+                                    3 sheets - 594 mm x 841 mm (A1) <br>
+                                    
+                                    <u>Total Required Area - 2375 sq. inches</u></td>
+                                
+                            </tr>
+
+                            <tr>
+                                    <td>2</td>
+                                    <td>Hot Glue Gun<br>
+                                        Glue Stick
+                                    </td>
+                                    <td>
+                                        X 1
+                                    </td>
+                            </tr>
+
+                            <tr>
+                                <td>3</td>
+                                <td>Thumb pins
+                                </td>
+                                <td>
+                                    X 8
+                                </td>
+
+                        </tr>
+
+                        <tr>
+                            <td>4</td>
+                            <td>Exacto-Knife OR <br>
+                                Box Cutter
+                            </td>
+                            <td>
+                                X 1
+                            </td>
+                            
+                    </tr>
+
+                            <tr>
+                                <td>5</td>
+                                <td>Metal Ruler/Scale (30 cm)
+                                </td>
+                                <td>
+                                    X 1
+                                </td>
+                                
+                        </tr>
+                            </tbody>
+                        </table>
+            
         </div>
+
+        
     </div>
 
     <div class="row">
@@ -50,16 +127,46 @@
                 
                 Some of the dimensions of the pieces, however, are several inches larger and wider than the A4 sheet size, and only fit on A1 sheets.
                 <br>
-                To make this accessible to everyone, though, the option of joining A4 sheets to stitch together the full-scale diagram is facilitated in the build plans. The steps from printing to building all the section frames are common in procedure. They are as follows: 
+                To make this accessible to everyone, though, the option of joining A4 sheets to stitch together the full-scale diagram is facilitated in the build plans.<br> <br>
+                <strong>The steps from printing to building all the section frames are common in procedure. They are as follows: </strong>
             </p>
         </div>
-
+    
         <div class="col-md-4">
             <img class="fullsize-img" src="/3d-box.svg"> 
+            <p class="image-components">3D Cube from a 2D Board</p>
         </div>
     </div>
-
-
-
-
 </div>
+
+
+
+
+
+<script>
+
+const openList = document.getElementById('openList');
+const closeList = document.getElementById('closeList');
+
+const list = document.getElementById('materialList');
+
+openList.addEventListener('click', function(){
+    list.classList.remove('disappear');
+    openList.style.display="none";
+    closeList.style.display="block";
+
+
+})
+
+closeList.addEventListener('click', function(){
+    list.classList.add('disappear');
+    openList.style.display="block";
+    closeList.style.display="none";
+
+})
+
+
+
+
+
+</script>
