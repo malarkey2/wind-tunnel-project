@@ -37,8 +37,8 @@ html, body{
 .bg-tunnel-image{
     height: 80%;
 
-    background: url(tunnel-background-1.svg);
-    background-size:contain;
+    background: url(tunnel-background-1-jpg.jpg);
+    background-size:cover;
 
 }
 
