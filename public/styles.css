@@ -44,12 +44,13 @@ html, body{
 
 
 .opening-text-div{
+    padding: 2%;
     height: 100%;
     background: rgba(129, 69, 151, 0.5);
 }
 
 .opening-text-title{
-    font-size: 84px;
+    font-size: 64px;
     line-height: 100px;
 
 /* identical to box height */
