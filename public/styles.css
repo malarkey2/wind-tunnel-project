@@ -52,6 +52,7 @@ html, body{
 .opening-text-title{
     font-size: 64px;
     line-height: 100px;
+    padding-left: 3%;
 
 /* identical to box height */
 
@@ -63,13 +64,15 @@ text-shadow: 10px 5px 0px #000000;
 
 .opening-text-paragraph{
     padding: 3%;
-    padding-left: 0%;
+    
     padding-top: 0%;
     margin-top: 2rem;
-    font-size: 18px;
-    line-height: 35px;
+    font-size: 16px;
+    line-height: 30px;
 }
-
+.opening-button-container{
+    padding-left: 3%;
+}
 .opening-buttons{
     border-radius: 0%;
      font-family: Raleway;
